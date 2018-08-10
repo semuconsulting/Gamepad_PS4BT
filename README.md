@@ -1,12 +1,19 @@
 
 # Gamepad_PS4BT
 
-Arduino library for standard PS3 or PS4 gamepad controller in conjunction with [Hobbytronics USB Host adapter configured with PS3/4 Bluetooth software running 
-in Serial HEX mode](http://www.hobbytronics.co.uk/usb-host/ps3-ps4-controller-bluetooth) and a pair of XBee wireless transceivers running in standard AT mode. 
+Arduino library for standard PS3 or PS4 gamepad controller in conjunction with a [Hobbytronics USB Host adapter loaded with PS3/4 Bluetooth software running 
+in Serial HEX mode](http://www.hobbytronics.co.uk/usb-host/ps3-ps4-controller-bluetooth). 
 
 ![Configuration](/Configuration.png)
 
+**This is a personal project and I am in no way affiliated to Hobbytronics.**
+
+Two example sketches are provided for the receiving MCU - gamepad_RX.ino provides a basic test facility; gamepad_servo.ino illustrates how to control a servo and LED 
+using a gamepad joystick and button.
+
 Some of the code has been adapted from the ps4_hex header example provided by Hobbytronics, 
+with the intention of providing a comparable gamepad class library to the companion [DFRobot (Leonardo/XBee) gamepad 
+library](https://github.com/semuconsulting/Gamepad_DFRobot) and allowing end users to adopt one or other type of controller more or less interchangeably. 
 
 **SEMU Consulting 2018**
 
