@@ -17,12 +17,13 @@ library](https://github.com/semuconsulting/Gamepad_DFRobot) and allowing end use
 
 **SEMU Consulting 2018**
 
-## Wiring Connections
+## Wiring Connections for receiving device
 
-   * 5V on USB Host board --> 5V on Arduino
-   * 0V on USB Host board --> GND on Arduino
-   * TX on USB Host board --> RX on Arduino
-   * RX on USB Host board --> TX on Arduino
+   * 5V on USB Host board  --> 5V on Arduino
+   * 0V on USB Host board  --> GND on Arduino
+   * TX on USB Host board  --> RX on Arduino
+   * RX on USB Host board  --> TX on Arduino
+   * USB on USB Host board --> USB Bluetooth dongle
 
 ## Enabling Serial HEX mode on the USB Host board
 
@@ -86,7 +87,7 @@ USB Host Ps4 Dual Shock Controller v1.04
    1. Remove any device from the USB port of the Host board
    2. Open up the Serial Monitor in the Arduino IDE and set the line mode to "Carriage return" and the baud rate to 9600.
    3. Follow the series of commands listed above in the FTDI configuration section.
-   4. Once complete, turn everything off, insert the USB cable from the PS3 controller and reconnect as per the normal wiring connections shown above.
+   4. Once complete, turn everything off, insert the Bluetooth dongle in the USB Host board and reconnect as per the normal wiring connections shown above.
 
 <!-- START COMPATIBILITY TABLE -->
 
