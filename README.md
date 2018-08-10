@@ -4,7 +4,6 @@
 Arduino library for standard PS3 or PS4 gamepad controller in conjunction with [Hobbytronics USB Host adapter configured with PS3/4 Bluetooth software running 
 in Serial HEX mode](http://www.hobbytronics.co.uk/usb-host/ps3-ps4-controller-bluetooth) and a pair of XBee wireless transceivers running in standard AT mode. 
 
-
 ![Configuration](/Configuration.png)
 
 Some of the code has been adapted from the ps4_hex header example provided by Hobbytronics, 

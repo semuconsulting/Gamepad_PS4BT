@@ -24,7 +24,7 @@ void setup()  {
 
 void loop()  {
 
-  if (ps4.get_data() == 1) {
+  if (ps4.get_data() == 0) {
 
     //Print out some of the data
     SerialUSB.print ("Left Joystick X = ");
