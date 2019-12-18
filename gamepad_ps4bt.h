@@ -14,7 +14,6 @@
 #include <Wire.h>
 
 #define DEFAULT_I2C_ADDRESS 0x29
-#define GAMEPAD_DATA 20   // 20 chars sent including the CRLF chars
 #define POLL_INTERVAL 20  // poll every 20 milliseconds
 #define CTL_MAX 255       // maximum analogue control value (8-bit = 255, 10-bit = 1023)
 #define PS4_I2C_LEN 14
