@@ -21,9 +21,14 @@ library](https://github.com/semuconsulting/Gamepad_DFRobot) and allowing end use
 
    * 5V on USB Host board  --> 5V on Arduino
    * 0V on USB Host board  --> GND on Arduino
-   * TX on USB Host board  --> RX1 on Arduino
-   * RX on USB Host board  --> TX1 on Arduino
+   * SDA on USB Host board  --> SDA on Arduino (pin A4 on Uno)
+   * SCL on USB Host board  --> SCL on Arduino (pin A5 on Uno)
    * USB on USB Host board --> USB Bluetooth dongle
+
+**NB:** if you are stacking multiple I2C devices, ensure:
+   * Each device has a unique I2C address
+   * The SDA and SCL lines have adequate PULL-UP provision. It may be necessary to 
+   add 4k7ohm resistors between VCC (3.3V / 5V) and the SDA and SCL lines for stability.
 
 ## Enabling I2C mode on the USB Host board
 
