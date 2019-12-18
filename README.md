@@ -26,7 +26,8 @@ library](https://github.com/semuconsulting/Gamepad_DFRobot) and allowing end use
    * USB on USB Host board --> USB Bluetooth dongle
 
 **NB:** if you are stacking multiple I2C devices, ensure:
-   * Each device has a unique I2C address
+   * Each device has a unique I2C address. You can use the [I2C_Scanner](https://playground.arduino.cc/Main/I2cScanner/) utility to check current
+   I2C device addresses.
    * The SDA and SCL lines have adequate PULL-UP provision. It may be necessary to 
    add 4k7ohm resistors between VCC (3.3V / 5V) and the SDA and SCL lines for stability.
 
