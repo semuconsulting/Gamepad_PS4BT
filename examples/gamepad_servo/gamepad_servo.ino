@@ -2,7 +2,7 @@
   PS3/4 Bluetooth Gamepad Controller servo test
   I2C interface
 
-  Using Hobbytronics USB Host adapter configured with PS3/4 Bluetooth software running in Serial HEX mode
+  Using Hobbytronics USB Host adapter configured with PS3/4 Bluetooth software running in I2C mode
     http://www.hobbytronics.co.uk/usb-host/ps3-ps4-controller-bluetooth
   
 */

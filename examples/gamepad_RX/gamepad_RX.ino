@@ -1,5 +1,5 @@
 /*
-  test of USB Host board with PS3/4 Bluetooth software
+  Test of USB Host board with PS3/4 Bluetooth software in I2C mode
 */
 
 #include "gamepad_ps4bt.h"
