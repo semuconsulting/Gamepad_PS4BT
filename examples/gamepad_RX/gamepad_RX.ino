@@ -8,18 +8,15 @@
 
 unsigned long time;
 String buttons;
-Gamepad_PS4BT ps4 = Gamepad_PS4BT();
+Gamepad_PS4BT ps4 = Gamepad_PS4BT(0x29);
 
 void setup()  {
 
-  //servoInit();
   SerialUSB.begin(baudRate);
-  Serial1.begin(baudRate);
   time = 0;
   while (!SerialUSB);
   SerialUSB.println("good to go");
 
-  ps4.beginRX(Serial1);
 }
 
 void loop()  {
@@ -107,5 +104,3 @@ void loop()  {
   delay(POLL_INTERVAL);
   
 }
-
-
